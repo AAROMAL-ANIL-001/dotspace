@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./Image/01.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 63vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+}
+.menu {
+  margin-top: 0;
+  height: 60px;
+  background-color: white;
+  opacity: 0.78;
+  z-index: -1;
+}
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.writings {
+  width: 100%;
+  height: 300px;
+}
+.content {
+  position: relative;
+  top: 200px;
+  height: 365px;
+}
+
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.CO h2 {
+  margin-top: 30vw;
+  font-size: 4vw;
+}
+.CON {
+  margin-top: 24vw;
+  text-align: center;
+}
+.two {
+  background-color: white;
+  height: 28vw;
+  text-align: center;
+}
+.space {
+  margin-top: 6vw;
+}
+.space1 {
+  font-size: 2vw;
+}
+.line {
+  width: 20px;
+  height: 2px;
+  background-color: red;
+}
+.three {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./Image/glasspartition.jpg);
+  height: 54vw;
+  background-position: center;
+  background-size: cover;
+}
+.exp {
+  margin-top: 19vw;
+  font-size: 10vw;
+
+  text-align: center;
+}
+.four {
+  width: 100%;
+  height: 400px;
+}
+.rowd {
+  margin-top: 100px;
+  height: 200px;
+}
+.five {
+  margin: 0;
+  height: 30vw;
+  width: 100%;
+  background-color: darkmagenta;
+}
+.disco h1 {
+  font-size: 16vw;
+  padding: 5vw;
+}
+.six {
+  width: 100%;
+  height: 60vh;
+}
+.sixxr {
+  height: 26vh;
+  margin-top: 13vh;
+}
+.poster {
+  font-size: 8vw;
+  padding-top: 50px;
+  font-weight: 100;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.bg-primary4 {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fcac45;
+}
+.seven {
+  width: 100%;
+  height: 51vh;
+}
+
+.eight {
+  width: 100%;
+  height: 33vh;
+  background-color: #2d3334;
+}
+hr{
+    border-color: orangered;
+    position: relative;
+    border-width: 4px;
+    width: 60px;
+    left: 46%;
+    clear: both;
+    align-items: center;
+}
+
+.aminity{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #2d3334;
+}
+h3.pricing {
+    margin-bottom: 150px;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 200;
+    color: #777777;
+}
+.price {
+    font-weight: 700;
+    font-size: 3vw;
+    color: #b5905c;
+}
+#pricing {
+    padding: 80px 0;
+}
+.footer {
+    background: #222222;
+    color: #ffffff;
+    padding: 20px 0 15px 0;
+    height: 7vh;
+    font-size: 2vw;
+}
+
+@media (max-width: 1200px) {
+  .four .col-xl-4 {
+    height: 100px;
+  }
+  .four .col-xl-4 img {
+    width: 165px;
+    height: 165px;
+  }
+  .six .col-xl-4 img {
+    width: 165px;
+    height: 165px;
+  }
+  .CO h2 {
+    margin-top: 15vh;
+  }
+  .CON {
+    margin-top: 18vh;
+  }
+}
+@media (max-width: 992px) {
+  .CO h2 {
+    margin-top: 10vh;
+  }
+  .CON {
+    margin-top: 0vh;
+  }
+}
+@media (max-width: 768px) {
+  .CO h2 {
+    margin-top: 2vh;
+  }
+  .CON {
+    margin-top: -15vw;
+  }
+}
+@media (max-width: 576px) {
+  .CO h2 {
+    margin-top: -3vh;
+  }
+  .CON {
+    margin-top: -17vh;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+}
